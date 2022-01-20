@@ -1,0 +1,16 @@
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\bin\Debug\net5.0\ParallelTest.exe
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\bin\Debug\net5.0\ParallelTest.deps.json
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\bin\Debug\net5.0\ParallelTest.runtimeconfig.json
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\bin\Debug\net5.0\ParallelTest.runtimeconfig.dev.json
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\bin\Debug\net5.0\ParallelTest.dll
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\bin\Debug\net5.0\ref\ParallelTest.dll
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\bin\Debug\net5.0\ParallelTest.pdb
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\obj\Debug\net5.0\ParallelTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\obj\Debug\net5.0\ParallelTest.AssemblyInfoInputs.cache
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\obj\Debug\net5.0\ParallelTest.AssemblyInfo.cs
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\obj\Debug\net5.0\ParallelTest.csproj.CoreCompileInputs.cache
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\obj\Debug\net5.0\ParallelTest.dll
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\obj\Debug\net5.0\ref\ParallelTest.dll
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\obj\Debug\net5.0\ParallelTest.pdb
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\obj\Debug\net5.0\ParallelTest.genruntimeconfig.cache
+C:\Users\Omega\source\repos\ParallelTest\ParallelTest\obj\Debug\net5.0\ParallelTest.csproj.AssemblyReference.cache
