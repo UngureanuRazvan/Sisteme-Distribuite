@@ -6,8 +6,8 @@ namespace ParallelTest
 {
     public class Program
     {
-        const int value = 100000000;
-        
+        const int simpleParallelValue = 100000000;
+        const int rowCount = 1000;
         static void SimpleParallel()
         {
             ParallelOptions ops = new ParallelOptions();
@@ -18,13 +18,13 @@ namespace ParallelTest
 
             Console.Error.WriteLine("Executing sequential loop...");
             Stopwatch watch = Stopwatch.StartNew();
-            psClass.SequentialMethod(value);
+            psClass.SequentialMethod(simpleParallelValue);
             watch.Stop();
             Console.WriteLine("Sequential Method:" + watch.ElapsedMilliseconds + " Miliseconds");
 
             Console.Error.WriteLine("Executing parallel loop...");
             watch = Stopwatch.StartNew();
-            psClass.ParallelMethod(ops, value);
+            psClass.ParallelMethod(ops, simpleParallelValue);
             //psClass.ParallelMethod(value);
             watch.Stop();
             Console.WriteLine("Parallel Method: " + watch.ElapsedMilliseconds + " Miliseconds");
@@ -34,15 +34,15 @@ namespace ParallelTest
         //ToDo Excel graph based on a number of tests
          static void MatrixParallel()
         {   //mxn || nxp == mxp
-            int colCount = 1000;
-            int rowCount = 1000;
+            //int colCount = 1000;
+            //int rowCount = 1000;
             //int colCount2 = 270;
             var matrixTest = new MatricesMultiplication();
 
-            double[,] m1 = matrixTest.InitializeMatrix(rowCount, colCount);
-            double[,] m2 = matrixTest.InitializeMatrix(rowCount, colCount);
+            double[,] m1 = matrixTest.InitializeMatrix(rowCount, rowCount);
+            double[,] m2 = matrixTest.InitializeMatrix(rowCount, rowCount);
             //double[,] result = new double[rowCount, colCount2];
-            double[,] result = new double[rowCount, colCount];
+            double[,] result = new double[rowCount, rowCount];
             Console.Error.WriteLine("\nMatrix Multiplication Test ");
             //Sequential version.
             Console.Error.WriteLine("Executing sequential loop...");
@@ -54,7 +54,7 @@ namespace ParallelTest
             Console.Error.WriteLine("Sequential loop time: {0}", stopwatch.ElapsedMilliseconds + " milliseconds");
 
             stopwatch.Reset();
-            result = new double[rowCount, colCount];
+            result = new double[rowCount, rowCount];
 
             //Parallel loop.
             Console.Error.WriteLine("Executing parallel loop...");
